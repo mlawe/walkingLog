@@ -65,7 +65,7 @@ void walkingLog(std::string year, double goal=500.0)
 
   plot_time_hist(tree, "totalmiles:date", "", "Mileage");
   plot_text(.35,.5, Form("Total: %.1f miles", totalmiles));
-  plot_text(.7,.5, Form("%.1f%% of target", 100*totalmiles/goal_distance, goal_distance));
+  plot_text(.7,.5, Form("%.1f%% of target", 100*totalmiles/goal_distance));
 
   output->Close();
 }
